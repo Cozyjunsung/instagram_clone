@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:instagram_clone/src/components/image_data.dart';
+import 'package:instagram_clone/src/controller/bottom_nav_controller.dart';
 
-class App extends StatelessWidget {
+class App extends GetView<BottomNavController> {
   const App({Key? key}) : super(key: key);
 
   @override
